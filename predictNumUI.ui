@@ -17,6 +17,14 @@
    <string notr="true">background-color: rgb(240, 240, 240);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">QWidget#centralwidget{
+	border-top-left-radius :10px;
+	border-top-right-radius : 10px;
+	border-bottom-left-radius : 10px;
+	border-bottom-right-radius : 10px;
+}</string>
+   </property>
    <layout class="QVBoxLayout" name="verticalLayout">
     <property name="spacing">
      <number>0</number>
@@ -203,8 +211,8 @@ QPushButton:hover{
     <item>
      <widget class="QFrame" name="frame">
       <property name="styleSheet">
-       <string notr="true">Qframe#frame{
-	border-bottom-left-radius :10px;
+       <string notr="true">QFrame#frame{
+	border-bottom-left-radius : 10px;
 	border-bottom-right-radius : 10px;
 }</string>
       </property>
