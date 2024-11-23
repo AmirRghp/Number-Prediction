@@ -30,9 +30,8 @@ This repository contains a PyQt5-based GUI application designed to recognize han
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/handwritten-digit-recognition.git
-   cd handwritten-digit-recognition
-
+   git clone https://github.com/AmirRghp/Number-Prediction.git
+   cd Number-Prediction
 2. Install the required Python packages:
    ```bash
       pip install -r requirements.txt
