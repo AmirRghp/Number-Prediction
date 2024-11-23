@@ -48,7 +48,7 @@ This repository contains a PyQt5-based GUI application designed to recognize han
    - Result: View the annotated image with predictions.
 
 
-## Usage
+## Project Structure
    - `main.py`: The main application script.
    - `predictNumUI.ui`: UI layout file designed in Qt Designer.
    - `sudoscan.h5`: Pre-trained deep learning model for digit recognition.
